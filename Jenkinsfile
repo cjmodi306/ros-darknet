@@ -8,7 +8,7 @@ pipeline {
 	}
 	stage('Test') {
             steps {
-               dir('.'){sh 'ls'}
+               dir('.'){sh 'echo $(WORKSPACE)'}
 		  }
         }
      }
