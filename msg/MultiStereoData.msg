@@ -1,0 +1,1 @@
+StereoData[] object_distance

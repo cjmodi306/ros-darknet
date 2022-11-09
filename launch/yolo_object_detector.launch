@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+
+<include file='$(find yolo_object_detector)/launch/two_cameras.launch'/>
+
+<node name='yolo_node' pkg='yolo_object_detector' type='yolo_original.py' output='screen' />
+
+</launch>
