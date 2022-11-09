@@ -8,7 +8,7 @@ pipeline {
 	}
 	stage('Test') {
             steps {
-               dir('.'){sh 'echo $(WORKSPACE)'}
+               dir('.'){sh 'echo ${env.WORKSPACE}'}
 		  }
         }
      }
