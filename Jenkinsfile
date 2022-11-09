@@ -9,6 +9,7 @@ pipeline {
             steps {
                 sh 'echo "Starting test..."'
 		  }
-        }
+        	}
     }
+}
 }
