@@ -10,7 +10,7 @@ pipeline {
 	}
 	stage('Test') {
             steps {
-               dir(..){}
+               dir('.'){sh 'ls'}
 		  }
         }
      }
